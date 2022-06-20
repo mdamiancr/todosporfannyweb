@@ -563,7 +563,7 @@ h2 {
 
 .window-notice .content {
 	background-position-x: 200;
-    background: #fff;
+    background: rgba(255, 255, 255, 0);
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
     box-sizing: content-box;
@@ -584,7 +584,7 @@ h2 {
 
 	.window-notice .content{
 		background-position-x: 200;
-		background: #fff;
+		background: rgba(255, 255, 255, 0);
 		border-radius: 2px;
 		box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
 		box-sizing: content-box;
@@ -599,6 +599,20 @@ h2 {
 		padding: 2rem;
 		font-size: 1.3rem;
 
+	}
+
+	#close-buttones{
+		font-family:Verdana;
+		font-size: 25px;
+		color: #0ba2db;
+		font-weight: 700;
+		text-align: center;
+		display: block;
+		margin-top: -1px;
+	}
+	
+	#close-buttones:hover{
+		color: #e00ebd;
 	}
 }
 
