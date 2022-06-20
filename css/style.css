@@ -44,8 +44,7 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
-	webkit-padding: 0;
-	moz-padding: 0;
+	
 }
 hr {
 	height: 2px;
@@ -124,7 +123,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #0ba2db;
+	background-color: #c217ab;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -154,7 +153,7 @@ hr {
 
 
 .intro .overlay {
-	background: rgba(255, 255, 255, 0);
+	background: rgba(211, 10, 104, 0.062);
 }
 .intro h1 {
 	color: #ff5fcf;
@@ -176,6 +175,8 @@ header .intro-text {
 	padding-top: 300px;
 	padding-bottom: 200px;
 	text-align: center;
+	animation: heartBeat;
+	animation-duration: 8s;
 }
 /* About Section */
 #about {
@@ -555,6 +556,8 @@ h2 {
 
 
 
+
+
 .window-notice {
     background: rgba(33, 41, 52, .85);
     left: 0;
@@ -567,7 +570,7 @@ h2 {
 	
 }
 
-.window-notice .content {
+.window-notice .contente {
 	background-position-x: 200;
     background: rgba(253, 67, 138, 0);
     border-radius: 20px;
@@ -592,7 +595,7 @@ h2 {
 
 @media (max-width: 520px){
 
-	.window-notice .content{
+	.window-notice .contente{
 		background-position-x: 200;
 		background: rgba(255, 255, 255, 0);
 		border-radius: 2px;
@@ -619,6 +622,7 @@ h2 {
 		text-align: center;
 		display: block;
 		margin-top: -1px;
+		
 	}
 	
 	#close-buttones:hover{
@@ -645,3 +649,4 @@ h2 {
 #close-buttones:hover{
 	color: #e00ebd;
 }
+
