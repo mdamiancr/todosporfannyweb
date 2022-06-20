@@ -464,6 +464,7 @@ img {
 }
 
 #idcuatro img{
+	height: 325px;
 	
 }
 #idcinco img{
@@ -550,6 +551,10 @@ h2 {
 
 
 
+/*Modal sorteo*/
+
+
+
 .window-notice {
     background: rgba(33, 41, 52, .85);
     left: 0;
@@ -559,12 +564,13 @@ h2 {
     display: flex;
     position: fixed;
     z-index: 2000;
+	
 }
 
 .window-notice .content {
 	background-position-x: 200;
-    background: rgba(255, 255, 255, 0);
-    border-radius: 2px;
+    background: rgba(253, 67, 138, 0);
+    border-radius: 20px;
     box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
     box-sizing: content-box;
     display: flex;
@@ -578,6 +584,10 @@ h2 {
     padding: 2rem;
     font-size: 1.3rem;
 	margin-top: 0px;
+}
+
+.window-notice img{
+	border-radius: 10px;
 }
 
 @media (max-width: 520px){
@@ -614,16 +624,22 @@ h2 {
 	#close-buttones:hover{
 		color: #e00ebd;
 	}
+
+	.window-notice img{
+		border-radius: 10px;
+	}
 }
 
 #close-buttones{
 	font-family:Verdana;
 	font-size: 25px;
-	color: #0ba2db;
+	color:  #e00ebd;
 	font-weight: 700;
 	text-align: center;
 	display: block;
 	margin-top: -1px;
+	border-radius: 50px;
+	
 }
 
 #close-buttones:hover{
