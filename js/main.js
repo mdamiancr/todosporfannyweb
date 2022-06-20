@@ -58,3 +58,5 @@ close_buttones.addEventListener("click", function(e) {
     e.preventDefault();
     document.getElementById("window-notice").style.display = "none";
 });
+
+//Hay que reparar el boton de movil
