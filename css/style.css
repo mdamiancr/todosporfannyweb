@@ -570,6 +570,8 @@ h2 {
 	
 }
 
+
+
 .window-notice .contente {
 	background-position-x: 200;
     background: rgba(253, 67, 138, 0);
@@ -626,7 +628,7 @@ h2 {
 	}
 	
 	#close-buttones:hover{
-		color: #e00ebd;
+		color: #ffffff;
 	}
 
 	.window-notice img{
@@ -637,17 +639,19 @@ h2 {
 #close-buttones{
 	font-family:Verdana;
 	font-size: 25px;
-	color:  #e00ebd;
+	color:  #ebd5e7;
 	font-weight: 700;
 	text-align: center;
 	display: block;
-	margin-top: -1px;
-	border-radius: 50px;
+	margin-top: 5px;
+	border-radius: 80px;
+	
+	
 	
 }
 
 #close-buttones:hover{
-	color: #e00ebd;
+	color: #eceaec;
 }
 
 @media (max-width: 420px){
