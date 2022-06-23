@@ -3892,7 +3892,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #eee;
 }
 .nav > li.disabled > a {
-  color: #777;
+  color: rgb(117, 28, 28);
 }
 .nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
