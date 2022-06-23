@@ -172,11 +172,13 @@ hr {
 	margin-bottom: 40px;
 }
 header .intro-text {
+
 	padding-top: 300px;
 	padding-bottom: 200px;
 	text-align: center;
 	animation: heartBeat;
 	animation-duration: 8s;
+	-webkit-text-stroke: 1px rgb(255, 248, 248);
 }
 /* About Section */
 #about {
@@ -599,6 +601,7 @@ h2 {
 
 @media (max-width: 520px){
 
+
 	.window-notice .contente{
 		background-position-x: 200;
 		background: rgba(255, 255, 255, 0);
@@ -677,3 +680,4 @@ h2 {
 	}
 
 }
+
