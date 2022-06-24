@@ -694,3 +694,20 @@ h2 {
 	color: #0362af;
 	font-weight: 700;
 }
+
+
+@media (max-width: 360px){
+
+	
+.wester{
+	width: 250px;
+	height: 90px;
+	margin-top: -2px;
+}
+
+.clasewestern{
+	color: #0362af;
+	font-weight: 700;
+}
+
+}
