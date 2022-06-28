@@ -396,6 +396,7 @@ color: #777;
 }
 #contact .social {
 	margin-top: 80px;
+	margin-bottom: -90px;
 }
 #contact .social ul li {
 	display: inline-block;
@@ -717,21 +718,21 @@ h2 {
 
 .fa-pencil{
 	color: #0ba2db;
-	font-size: 35px !important;
+	font-size: 30px !important;
 	margin-bottom: 15px;
 }
 
 
 .fa-picture-o{
 	color: #0ba2db;
-	font-size: 35px !important;
+	font-size: 30px !important;
 	margin-bottom: 15px;
 
 }
 
 .fa-heart{
 	color: #0362af;
-	font-size: 35px !important;
+	font-size: 30px !important;
 	margin-bottom: 15px;
 }
 
