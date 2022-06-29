@@ -138,6 +138,7 @@ hr {
 }
 /* Header Section */
 .intro {
+	
 	display: table;
 	width: 100%;
 	padding: 0px;
@@ -154,6 +155,7 @@ hr {
 
 .intro .overlay {
 	background: rgba(211, 10, 104, 0.062);
+	
 }
 .intro h1 {
 	color: #ff5fcf;
@@ -172,12 +174,9 @@ hr {
 	margin-bottom: 40px;
 }
 header .intro-text {
-
 	padding-top: 300px;
 	padding-bottom: 200px;
 	text-align: center;
-	animation: heartBeat;
-	animation-duration: 8s;
 	-webkit-text-stroke: 0.5px rgb(255, 248, 248);
 }
 /* About Section */
@@ -720,10 +719,56 @@ h2{
 	color: #d443c1 !important;
 }
 
-/*
-.img-responsive{
-	animation:fadeInLeft;
-	animation-duration: 2s;
+
+
+
+
+
+/*nuevo titulo*/
+
+.nuevo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+	color: rgb(218, 42, 218);
 }
 
-*/
+ .nuevo span{
+	font-size: 7vw;
+	font-weight: 800;
+	text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+
+}
+
+.nuevo span:not(:first-child){
+	margin-left: -0.23em;
+}
+
+@media (max-width: 16817px){
+	.nuevo{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		text-align: center;
+		color: rgb(218, 42, 218);
+		margin-top: -100px !important;
+	}
+	
+	 .nuevo span{
+		font-size: 12vw;
+		font-weight: 800;
+		text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+		
+	
+	}
+	
+	.nuevo span:not(:first-child){
+		margin-left: -0.23em;
+	}
+
+}
