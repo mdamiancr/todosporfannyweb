@@ -715,30 +715,7 @@ h2 {
 }
 
 
-/*Iconos subtitulos*/
-
-.fa-pencil{
-	color: #0ba2db;
-	font-size: 30px !important;
-	margin-bottom: 15px;
-}
-
-
-.fa-picture-o{
-	color: #0ba2db;
-	font-size: 30px !important;
-	margin-bottom: 15px;
-
-}
-
-.fa-heart{
-	color: #0362af;
-	font-size: 30px !important;
-	margin-bottom: 15px;
-}
-
-
-.fa-instagram{
-	font-size: 38px !important;
-	margin-bottom: -250px !important;
+h2{
+	font-family:sans-serif !important;
+	color: #d443c1 !important;
 }
